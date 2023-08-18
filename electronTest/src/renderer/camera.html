@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self'"/>
+    <title>Camera Page</title>
+</head>
+<body>
+    <h1>Hello Camera</h1>
+    <video id="webcam" width="400px" style="border: 2px solid red;" autoplay playsinline></video>
+    <canvas class="output_canvas" id="output_canvas" style="position: absolute; left: 0px; top: 0px;"></canvas>
+
+
+    <h1 id="heading">Predictions: null</h1>
+    <script src="./js/camera.js"></script>
+</body>
+</html>
