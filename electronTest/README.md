@@ -6,5 +6,5 @@ This electron is for testing model and also adding keypress simulate using c++ a
 
 ## Requirements
 
--   Deveoper must have install node with python and vs build tools (node automatically install this on selecting install chocolatey in install options)
+-   Developer must have install node with python and vs build tools (node automatically install this on selecting install chocolatey in install options)
 -   install node-gyp globally
